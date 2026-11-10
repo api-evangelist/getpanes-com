@@ -1,4 +1,4 @@
-# getpanes-com
+# Panes
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -65,4 +65,114 @@
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
 getpanes-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://getpanes.com/
+
+**Areas:** Private Feed · API · Automation · Developer Tools
+
+## Panes on APIs.io
+
+Everything profiled for Panes is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/getpanes-com/](https://apis.io/providers/getpanes-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Panes API](https://apis.io/apis/getpanes-com/panes-api/) — The Panes API provides endpoints for managing panes, as documented in the API reference at https://getpanes.com/docs/api.
+- [Panes API](https://apis.io/apis/getpanes-com/getpanes-com-api/) — Panes API as documented publicly: 37 operations. Contract generated from the documentation by API Evangelist (2026-11-10); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1AuthTokensResponse](https://apis.io/schemas/getpanes-com/getpanes-com-get-api-v1-auth-tokens-response/)
+- [GetApiV1PanesTypesResponse](https://apis.io/schemas/getpanes-com/getpanes-com-get-api-v1-panes-types-response/)
+- [PostApiV1AuthTokensResponse](https://apis.io/schemas/getpanes-com/getpanes-com-post-api-v1-auth-tokens-response/)
+- [PostApiV1DevicesResponse](https://apis.io/schemas/getpanes-com/getpanes-com-post-api-v1-devices-response/)
+- [PostApiV1FeedItemsRequest](https://apis.io/schemas/getpanes-com/getpanes-com-post-api-v1-feed-items-request/)
+- [PostApiV1WebhooksRevenuecatRequest](https://apis.io/schemas/getpanes-com/getpanes-com-post-api-v1-webhooks-revenuecat-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Getpanes Com Context](https://apis.io/jsonld/getpanes-com/getpanes-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Panes API Rules](https://apis.io/rules/getpanes-com/getpanes-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Panes Domain Security](https://apis.io/security/getpanes-com/getpanes-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://getpanes.com/)
+- [Documentation](https://getpanes.com/docs/api)
+- [Pricing](https://getpanes.com/pricing)
+- [Support](https://getpanes.com/support)
+- [Terms of service](https://getpanes.com/terms)
+- [Privacy policy](https://getpanes.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 40.1** — developing · rubric 0.27.0 · scored 2026-11-10
+
+| Facet | Score |
+|---|---|
+| Discoverability | 41.1 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 44.7 |
+
+**Agent readiness 34.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/getpanes-com/](https://apis.io/providers/getpanes-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Panes: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/getpanes-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
